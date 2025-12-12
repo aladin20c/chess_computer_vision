@@ -1,3 +1,4 @@
 godot
 ./chess_board_3d.html
 .venv
+.DS_Store
