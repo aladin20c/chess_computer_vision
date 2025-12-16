@@ -8,7 +8,7 @@ The project is composed of two main Jupyter notebooks:
 
 ### 1. Training (`training_file.ipynb`)
 * **Goal:** Train a classifier to recognize specific chess pieces.
-* **Method:** Uses a Support Vector Machine (SVM) to learn from piece images located in the `data/` folder.
+* **Method:** Uses DINOv2 (Vision Transformer) to extract features and trains a Support Vector Machine (SVM) on the dataset in 'data/'.
 * **Output:** Saves the trained model weights to the `models/` folder for later use.
 
 ### 2. Classification (`classification_file.ipynb`)
