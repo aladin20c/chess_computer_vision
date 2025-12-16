@@ -2,3 +2,132 @@ godot
 ./chess_board_3d.html
 .venv
 .DS_Store
+
+
+
+
+# -------------------------------------------------------------------------
+# Python Internals & Build Artifacts
+# -------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# -------------------------------------------------------------------------
+# Virtual Environments
+# (Common names for virtual envs)
+# -------------------------------------------------------------------------
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+
+# 2. Models & Weights
+# These files are usually too large for standard Git.
+# Use Git LFS if you absolutely must version control them.
+#models/
+#checkpoints/
+#*.ckpt
+#*.h5
+#*.keras
+#*.model
+#*.pb
+#*.pt
+#*.pth
+#*.pkl
+#*.joblib
+#*.onnx
+
+
+# 3. Training Logs & Visualizations
+logs/
+training_logs/
+runs/
+# TensorBoard
+tensorboard/
+# Weights & Biases
+wandb/
+.wandb
+# MLFlow
+mlruns/
+
+# -------------------------------------------------------------------------
+# Jupyter Notebooks
+# -------------------------------------------------------------------------
+# Checkpoints created by Jupyter
+.ipynb_checkpoints
+# If you use IPython
+profile_default/
+ipython_config.py
+
+# -------------------------------------------------------------------------
+# Testing & Code Quality
+# -------------------------------------------------------------------------
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------------------------------------------------------
+# Configuration & Secrets (CRITICAL)
+# -------------------------------------------------------------------------
+# NEVER commit API keys or passwords
+.env
+.env.*
+!.env.example
+secrets.json
+config_local.yaml
+credentials.json
+
+# -------------------------------------------------------------------------
+# IDEs & Editors
+# -------------------------------------------------------------------------
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------------------------------------------------------
+# OS Generated Files
+# -------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
