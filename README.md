@@ -2,6 +2,10 @@
 
 This project utilizes Computer Vision and Machine Learning to digitally reconstruct a chess game from a raw image of a physical chessboard.
 
+| Input | Output |
+|-------|--------|
+| ![Input](static/in.png) | ![Output](static/out.png) |
+
 ## Project Structure
 
 The project is composed of two main Jupyter notebooks:
@@ -46,6 +50,12 @@ Limitations
 Board Style: The current model is strictly optimized for green/white style boards (as seen in the boards/ folder).
 
 Generalization: The dataset used for training included only this specific board style. To support wooden, blue, or other board types, the training dataset would need to be expanded to include those variations.
+
+---
+
+![Alignment](static/alignment.png)
+
+*Computer vision techniques used for piece extraction, tile extraction, and board alignment.*
 
 
 ***
